@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Employee ID No. (EIN) Card</key>
+	<array>
+		<string>I-94</string>
+		<string>Social Security Card</string>
+	</array>
+	<key>Social Security Card</key>
+	<array>
+		<string>I-94</string>
+	</array>
+	<key>Library Card</key>
+	<array>
+		<string>State ID</string>
+		<string>Employee ID (EIN)</string>
+		<string>Addressed Mail</string>
+	</array>
+	<key>Housing Authority Registration</key>
+	<array>
+		<string>I-94</string>
+		<string>State ID</string>
+		<string>Employee ID (EIN)</string>
+	</array>
+	<key>Immunizations</key>
+	<array>
+		<string>State ID</string>
+		<string>Employee ID (EIN)</string>
+		<string>Medicaid Card</string>
+	</array>
+	<key>Mental Health Service Referral</key>
+	<array>
+		<string>Medicaid Card</string>
+		<string>State ID</string>
+	</array>
+	<key>State ID</key>
+	<array>
+		<string>I-94</string>
+		<string>Employee ID (EIN)</string>
+		<string>Addressed Mail</string>
+	</array>
+</dict>
+</plist>
