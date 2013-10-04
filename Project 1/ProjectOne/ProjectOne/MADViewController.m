@@ -119,5 +119,12 @@
         _docViewer.image=[UIImage imageNamed:@"Medicaid.png"];
     }
 }
+-(NSUInteger)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskAll;
+}
 
+// Tell the system it should autorotate
+- (BOOL) shouldAutorotate {
+    return YES;
+}
 @end
