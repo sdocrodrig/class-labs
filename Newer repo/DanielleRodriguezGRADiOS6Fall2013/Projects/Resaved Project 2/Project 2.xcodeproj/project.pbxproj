@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11092C421831F5DA0060C652 /* UHealthCareEmblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C411831F5DA0060C652 /* UHealthCareEmblem.png */; };
+		11092C441831F5E70060C652 /* DepartmentOfHealthEmblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C431831F5E70060C652 /* DepartmentOfHealthEmblem.png */; };
+		11092C481831F6030060C652 /* dwsEmblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C471831F6030060C652 /* dwsEmblem.png */; };
+		11092C4A1831F6140060C652 /* socialSecurityEmblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C491831F6140060C652 /* socialSecurityEmblem.png */; };
+		11092C5318327F4C0060C652 /* TB Clinic Meds (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C5218327F4C0060C652 /* TB Clinic Meds (1).png */; };
+		11092C5518327F760060C652 /* welfareenrollment.png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C5418327F760060C652 /* welfareenrollment.png */; };
+		11092C5718327F930060C652 /* healthclinicappt.png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C5618327F930060C652 /* healthclinicappt.png */; };
+		11092C5918327F9F0060C652 /* employmentintake.png in Resources */ = {isa = PBXBuildFile; fileRef = 11092C5818327F9F0060C652 /* employmentintake.png */; };
+		1109463F182D666000A49DDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1109463E182D666000A49DDC /* UIKit.framework */; };
+		11094641182D666000A49DDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11094640182D666000A49DDC /* Foundation.framework */; };
+		11094643182D666000A49DDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11094642182D666000A49DDC /* CoreGraphics.framework */; };
+		11094649182D666000A49DDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11094647182D666000A49DDC /* InfoPlist.strings */; };
+		1109464B182D666000A49DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1109464A182D666000A49DDC /* main.m */; };
+		1109464F182D666000A49DDC /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1109464E182D666000A49DDC /* MADAppDelegate.m */; };
+		11094651182D666000A49DDC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11094650182D666000A49DDC /* Default.png */; };
+		11094653182D666000A49DDC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11094652182D666000A49DDC /* Default@2x.png */; };
+		11094655182D666000A49DDC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11094654182D666000A49DDC /* Default-568h@2x.png */; };
+		11094658182D666000A49DDC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11094656182D666000A49DDC /* MainStoryboard.storyboard */; };
+		1109465B182D666000A49DDC /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1109465A182D666000A49DDC /* MADViewController.m */; };
+		11094662182D672100A49DDC /* tex2res4 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 11094661182D672100A49DDC /* tex2res4 copy.png */; };
+		11094665182D6C5900A49DDC /* docViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11094664182D6C5900A49DDC /* docViewController.m */; };
+		119099D91831773500695B26 /* ModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 119099D81831773500695B26 /* ModelData.m */; };
+		119099DF1831DCCE00695B26 /* IRCInternIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 119099DE1831DCCE00695B26 /* IRCInternIcon.png */; };
+		119099E31831DD6700695B26 /* IRCInternIconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 119099E21831DD6700695B26 /* IRCInternIconSmall.png */; };
+		11D3C035184ED5C4007C8CEE /* MedicaidEmblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D3C034184ED5C4007C8CEE /* MedicaidEmblem.png */; };
+		11D3C037184ED980007C8CEE /* SocialSecurity_Header.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D3C036184ED980007C8CEE /* SocialSecurity_Header.png */; };
+		11D99C95182F70EB00AE05F7 /* EIC.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D99C94182F70EB00AE05F7 /* EIC.png */; };
+		11D99C97182F70F100AE05F7 /* dmv.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D99C96182F70F100AE05F7 /* dmv.png */; };
+		11D99C99182F70F600AE05F7 /* I-94.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D99C98182F70F600AE05F7 /* I-94.png */; };
+		11D99C9D182F710800AE05F7 /* Medicaid.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D99C9C182F710800AE05F7 /* Medicaid.png */; };
+		11D99C9F182F711100AE05F7 /* SSN.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D99C9E182F711100AE05F7 /* SSN.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11092C411831F5DA0060C652 /* UHealthCareEmblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UHealthCareEmblem.png; sourceTree = "<group>"; };
+		11092C431831F5E70060C652 /* DepartmentOfHealthEmblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DepartmentOfHealthEmblem.png; sourceTree = "<group>"; };
+		11092C471831F6030060C652 /* dwsEmblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dwsEmblem.png; sourceTree = "<group>"; };
+		11092C491831F6140060C652 /* socialSecurityEmblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = socialSecurityEmblem.png; sourceTree = "<group>"; };
+		11092C5218327F4C0060C652 /* TB Clinic Meds (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TB Clinic Meds (1).png"; sourceTree = "<group>"; };
+		11092C5418327F760060C652 /* welfareenrollment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welfareenrollment.png; sourceTree = "<group>"; };
+		11092C5618327F930060C652 /* healthclinicappt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = healthclinicappt.png; sourceTree = "<group>"; };
+		11092C5818327F9F0060C652 /* employmentintake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = employmentintake.png; sourceTree = "<group>"; };
+		1109463B182D666000A49DDC /* Project 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1109463E182D666000A49DDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11094640182D666000A49DDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11094642182D666000A49DDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11094646182D666000A49DDC /* Project 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Project 2-Info.plist"; sourceTree = "<group>"; };
+		11094648182D666000A49DDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1109464A182D666000A49DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1109464C182D666000A49DDC /* Project 2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project 2-Prefix.pch"; sourceTree = "<group>"; };
+		1109464D182D666000A49DDC /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		1109464E182D666000A49DDC /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		11094650182D666000A49DDC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		11094652182D666000A49DDC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		11094654182D666000A49DDC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		11094657182D666000A49DDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		11094659182D666000A49DDC /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		1109465A182D666000A49DDC /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		11094661182D672100A49DDC /* tex2res4 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tex2res4 copy.png"; sourceTree = "<group>"; };
+		11094663182D6C5900A49DDC /* docViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = docViewController.h; sourceTree = "<group>"; };
+		11094664182D6C5900A49DDC /* docViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = docViewController.m; sourceTree = "<group>"; };
+		119099D71831773500695B26 /* ModelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelData.h; sourceTree = "<group>"; };
+		119099D81831773500695B26 /* ModelData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelData.m; sourceTree = "<group>"; };
+		119099DE1831DCCE00695B26 /* IRCInternIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IRCInternIcon.png; sourceTree = "<group>"; };
+		119099E21831DD6700695B26 /* IRCInternIconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IRCInternIconSmall.png; path = ../IRCInternIconSmall.png; sourceTree = "<group>"; };
+		119099EC1831E72D00695B26 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		11D3C034184ED5C4007C8CEE /* MedicaidEmblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MedicaidEmblem.png; sourceTree = "<group>"; };
+		11D3C036184ED980007C8CEE /* SocialSecurity_Header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SocialSecurity_Header.png; sourceTree = "<group>"; };
+		11D99C94182F70EB00AE05F7 /* EIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EIC.png; sourceTree = "<group>"; };
+		11D99C96182F70F100AE05F7 /* dmv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dmv.png; sourceTree = "<group>"; };
+		11D99C98182F70F600AE05F7 /* I-94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "I-94.png"; sourceTree = "<group>"; };
+		11D99C9C182F710800AE05F7 /* Medicaid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Medicaid.png; sourceTree = "<group>"; };
+		11D99C9E182F711100AE05F7 /* SSN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SSN.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11094638182D666000A49DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1109463F182D666000A49DDC /* UIKit.framework in Frameworks */,
+				11094641182D666000A49DDC /* Foundation.framework in Frameworks */,
+				11094643182D666000A49DDC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11092C401831F5C00060C652 /* Emblems */ = {
+			isa = PBXGroup;
+			children = (
+				11092C491831F6140060C652 /* socialSecurityEmblem.png */,
+				11092C471831F6030060C652 /* dwsEmblem.png */,
+				11D3C034184ED5C4007C8CEE /* MedicaidEmblem.png */,
+				11092C431831F5E70060C652 /* DepartmentOfHealthEmblem.png */,
+				11092C411831F5DA0060C652 /* UHealthCareEmblem.png */,
+			);
+			name = Emblems;
+			sourceTree = "<group>";
+		};
+		11092C4F18327F1A0060C652 /* Header File Images */ = {
+			isa = PBXGroup;
+			children = (
+				11092C5418327F760060C652 /* welfareenrollment.png */,
+				11092C5618327F930060C652 /* healthclinicappt.png */,
+				11D3C036184ED980007C8CEE /* SocialSecurity_Header.png */,
+				11092C5818327F9F0060C652 /* employmentintake.png */,
+				11092C5218327F4C0060C652 /* TB Clinic Meds (1).png */,
+			);
+			name = "Header File Images";
+			sourceTree = "<group>";
+		};
+		11094632182D666000A49DDC = {
+			isa = PBXGroup;
+			children = (
+				119099EC1831E72D00695B26 /* Constants.h */,
+				11094644182D666000A49DDC /* Project 2 */,
+				1109463D182D666000A49DDC /* Frameworks */,
+				1109463C182D666000A49DDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1109463C182D666000A49DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1109463B182D666000A49DDC /* Project 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1109463D182D666000A49DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1109463E182D666000A49DDC /* UIKit.framework */,
+				11094640182D666000A49DDC /* Foundation.framework */,
+				11094642182D666000A49DDC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11094644182D666000A49DDC /* Project 2 */ = {
+			isa = PBXGroup;
+			children = (
+				119099EA1831DEFD00695B26 /* Second View Controller */,
+				119099E91831DEDA00695B26 /* First View Controller */,
+				119099E81831DEBA00695B26 /* Model Class */,
+				11094656182D666000A49DDC /* MainStoryboard.storyboard */,
+				11094645182D666000A49DDC /* Supporting Files */,
+			);
+			path = "Project 2";
+			sourceTree = "<group>";
+		};
+		11094645182D666000A49DDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11092C4F18327F1A0060C652 /* Header File Images */,
+				11092C401831F5C00060C652 /* Emblems */,
+				119099E41831DDE200695B26 /* Icon Images */,
+				119099E51831DE0600695B26 /* Interface Design Images */,
+				119099E61831DE2500695B26 /* Document Viewer Images */,
+				119099E71831DE7B00695B26 /* Misc. */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		119099E41831DDE200695B26 /* Icon Images */ = {
+			isa = PBXGroup;
+			children = (
+				119099DE1831DCCE00695B26 /* IRCInternIcon.png */,
+				119099E21831DD6700695B26 /* IRCInternIconSmall.png */,
+			);
+			name = "Icon Images";
+			sourceTree = "<group>";
+		};
+		119099E51831DE0600695B26 /* Interface Design Images */ = {
+			isa = PBXGroup;
+			children = (
+				11094661182D672100A49DDC /* tex2res4 copy.png */,
+			);
+			name = "Interface Design Images";
+			sourceTree = "<group>";
+		};
+		119099E61831DE2500695B26 /* Document Viewer Images */ = {
+			isa = PBXGroup;
+			children = (
+				11D99C98182F70F600AE05F7 /* I-94.png */,
+				11D99C9E182F711100AE05F7 /* SSN.png */,
+				11D99C9C182F710800AE05F7 /* Medicaid.png */,
+				11D99C94182F70EB00AE05F7 /* EIC.png */,
+				11D99C96182F70F100AE05F7 /* dmv.png */,
+			);
+			name = "Document Viewer Images";
+			sourceTree = "<group>";
+		};
+		119099E71831DE7B00695B26 /* Misc. */ = {
+			isa = PBXGroup;
+			children = (
+				11094652182D666000A49DDC /* Default@2x.png */,
+				11094654182D666000A49DDC /* Default-568h@2x.png */,
+				11094646182D666000A49DDC /* Project 2-Info.plist */,
+				1109464A182D666000A49DDC /* main.m */,
+				1109464C182D666000A49DDC /* Project 2-Prefix.pch */,
+				11094650182D666000A49DDC /* Default.png */,
+				11094647182D666000A49DDC /* InfoPlist.strings */,
+			);
+			name = Misc.;
+			sourceTree = "<group>";
+		};
+		119099E81831DEBA00695B26 /* Model Class */ = {
+			isa = PBXGroup;
+			children = (
+				119099D71831773500695B26 /* ModelData.h */,
+				119099D81831773500695B26 /* ModelData.m */,
+			);
+			name = "Model Class";
+			sourceTree = "<group>";
+		};
+		119099E91831DEDA00695B26 /* First View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1109464E182D666000A49DDC /* MADAppDelegate.m */,
+				1109464D182D666000A49DDC /* MADAppDelegate.h */,
+				1109465A182D666000A49DDC /* MADViewController.m */,
+				11094659182D666000A49DDC /* MADViewController.h */,
+			);
+			name = "First View Controller";
+			sourceTree = "<group>";
+		};
+		119099EA1831DEFD00695B26 /* Second View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				11094664182D6C5900A49DDC /* docViewController.m */,
+				11094663182D6C5900A49DDC /* docViewController.h */,
+			);
+			name = "Second View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1109463A182D666000A49DDC /* Project 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1109465E182D666000A49DDC /* Build configuration list for PBXNativeTarget "Project 2" */;
+			buildPhases = (
+				11094637182D666000A49DDC /* Sources */,
+				11094638182D666000A49DDC /* Frameworks */,
+				11094639182D666000A49DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 2";
+			productName = "Project 2";
+			productReference = 1109463B182D666000A49DDC /* Project 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11094633182D666000A49DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sdrodrig;
+			};
+			buildConfigurationList = 11094636182D666000A49DDC /* Build configuration list for PBXProject "Project 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11094632182D666000A49DDC;
+			productRefGroup = 1109463C182D666000A49DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1109463A182D666000A49DDC /* Project 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11094639182D666000A49DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11094649182D666000A49DDC /* InfoPlist.strings in Resources */,
+				11094651182D666000A49DDC /* Default.png in Resources */,
+				11094653182D666000A49DDC /* Default@2x.png in Resources */,
+				11094655182D666000A49DDC /* Default-568h@2x.png in Resources */,
+				11094658182D666000A49DDC /* MainStoryboard.storyboard in Resources */,
+				11094662182D672100A49DDC /* tex2res4 copy.png in Resources */,
+				11D99C95182F70EB00AE05F7 /* EIC.png in Resources */,
+				11D99C97182F70F100AE05F7 /* dmv.png in Resources */,
+				11D99C99182F70F600AE05F7 /* I-94.png in Resources */,
+				11D99C9D182F710800AE05F7 /* Medicaid.png in Resources */,
+				11D99C9F182F711100AE05F7 /* SSN.png in Resources */,
+				119099DF1831DCCE00695B26 /* IRCInternIcon.png in Resources */,
+				119099E31831DD6700695B26 /* IRCInternIconSmall.png in Resources */,
+				11092C421831F5DA0060C652 /* UHealthCareEmblem.png in Resources */,
+				11092C441831F5E70060C652 /* DepartmentOfHealthEmblem.png in Resources */,
+				11092C481831F6030060C652 /* dwsEmblem.png in Resources */,
+				11092C4A1831F6140060C652 /* socialSecurityEmblem.png in Resources */,
+				11092C5318327F4C0060C652 /* TB Clinic Meds (1).png in Resources */,
+				11092C5518327F760060C652 /* welfareenrollment.png in Resources */,
+				11092C5718327F930060C652 /* healthclinicappt.png in Resources */,
+				11092C5918327F9F0060C652 /* employmentintake.png in Resources */,
+				11D3C035184ED5C4007C8CEE /* MedicaidEmblem.png in Resources */,
+				11D3C037184ED980007C8CEE /* SocialSecurity_Header.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11094637182D666000A49DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1109464B182D666000A49DDC /* main.m in Sources */,
+				1109464F182D666000A49DDC /* MADAppDelegate.m in Sources */,
+				1109465B182D666000A49DDC /* MADViewController.m in Sources */,
+				11094665182D6C5900A49DDC /* docViewController.m in Sources */,
+				119099D91831773500695B26 /* ModelData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11094647182D666000A49DDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11094648182D666000A49DDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11094656182D666000A49DDC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11094657182D666000A49DDC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1109465C182D666000A49DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1109465D182D666000A49DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1109465F182D666000A49DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Project 2/Project 2-Prefix.pch";
+				INFOPLIST_FILE = "Project 2/Project 2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11094660182D666000A49DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Project 2/Project 2-Prefix.pch";
+				INFOPLIST_FILE = "Project 2/Project 2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11094636182D666000A49DDC /* Build configuration list for PBXProject "Project 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1109465C182D666000A49DDC /* Debug */,
+				1109465D182D666000A49DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1109465E182D666000A49DDC /* Build configuration list for PBXNativeTarget "Project 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1109465F182D666000A49DDC /* Debug */,
+				11094660182D666000A49DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11094633182D666000A49DDC /* Project object */;
+}
